@@ -20,3 +20,4 @@ if __name__ == '__main__':
     my_IKEv2.sr_IKE_INIT()
     my_IKEv2.sr_IKE_AUTH(IDtype=2, ID_load=b"*.org")
 ```
+IDi Type and IDi Data can be controlled by the parameters of sr_IKE_AUTH() method.
